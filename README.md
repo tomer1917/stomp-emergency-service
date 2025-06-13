@@ -45,6 +45,10 @@ A two-part system for subscribing to and reporting emergencies over STOMP:
 .
 ├── docs/
 │   └── SPL251__Assignment_3_instructions.pdf   # Assignment spec
+├── examples/                         # Sample input/output files
+│   ├── events1.json
+│   ├── events1_out.txt
+│   └── events1_outiii.txt
 ├── server/                                     # Java STOMP server
 │   ├── pom.xml
 │   └── src/main/java/...                       # Connections, protocols, TPC/Reactor
@@ -53,6 +57,7 @@ A two-part system for subscribing to and reporting emergencies over STOMP:
     ├── src/                                    # Implementation (threads, STOMP frames)
     ├── bin/                                    # Executables
     └── Makefile                                # Build rules
+
 ```
 
 ---
